@@ -8,7 +8,7 @@ body{
 /* Section-1 : Jumbotron */
 .jumbotronContainer{
     background-image: url('../Assets/Background.png');
-    height: 500px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0px 30px;
