@@ -1,8 +1,12 @@
+:root{
+    --colorPrimary: #000000;
+}
+
 body{
     margin: 0px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    font-family: 'Lato', sans-serif;;
+    background-color: var(--colorPrimary);
 }
 
 /* Section-1 : Jumbotron */
