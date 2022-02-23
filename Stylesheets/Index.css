@@ -2,10 +2,12 @@ body{
     margin: 0px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
 }
 
+/* Section-1 : Jumbotron */
 .jumbotronContainer{
-    background-image: url('https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/03/Aesthetic-Minimalist-Background.png?resize=1226%2C690&ssl=1');
+    background-image: url('../Assets/Background.png');
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,10 +20,28 @@ body{
     align-items: center;
 }
 
+.jumbotronNavbarMenu{
+    border: 1px solid white;
+    padding: 10px 5px 10px 10px;
+    border-radius: 10px;
+}
+
+.jumbotronNavbarMenu:hover{
+    background-color: white;
+    color: royalblue;
+}
+
 .jumbotronWelcomeContainer{
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 170px;
+}
+
+/* Section-2 : Experience */
+.experienceListContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 30px 200px;
 }
